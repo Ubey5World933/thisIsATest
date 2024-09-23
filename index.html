@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+
+.nav {
+    background-color: rgb(86, 86, 86);
+    overflow: hidden;
+    }
+
+    header{
+
+    display: flex;
+    background-color: rgb(red, green, blue)
+    }
+
+  .nav a{
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .nav :hover{
+    background-color: tan
+  }
+
+      @media (max-width: 992px) {
+
+        h1 {
+            display: block;
+            background-color: tan;
+        }
+        h2 {
+            display: none;
+            background-color: tan;
+        } 
+
+  } 
+      
+
+
+    @media (min-width: 800px) {
+
+        h1{
+            display: none;
+            background-color: turquoise;
+        }
+        h2{
+            display: block;
+            background-color: turquoise;
+        }
+    }
+    
+    
+    button {
+        background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        color: white;
+    }
+    
+    .interactive_box {
+        transition: width 2s, height 4s;
+        background-color: red;
+        width: 70px;
+        height: 70px;
+    }
+
+    .interactive_box :hover {
+        width: 400px;
+        height: 400px;
+    }
+
+
+    
+
+</style>
+
+<div class = "nav">
+    <a class="active">Home</a>
+    <a>News</a>
+    <a>Contact</a>
+    <a>Ferg's Closet</a>
+</div>
+
+<a></a>
+
+
+
+
+
+<h1>you can only see this on a small screen!</h1>
+
+<h2>you can only see this on a large screen!</h2>
+
+<div class = "interactive_box: hover">
+    <p>Red Box</p>
+</div>
+
+
+<button type ="button">?</button>
+
+
+
+
+
+</html>
